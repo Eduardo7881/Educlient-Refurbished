@@ -1,7 +1,7 @@
 # Educlient-Refurbished
 EduClient PVP Minecraft Client is on again... kinda.
 
-# What do you meandros by "Refurbished"?
+# What do you mean by "Refurbished"?
 it means i am fixing a lot of bugs and adding things based on other clients. like Lunar Client.
 
 My goals is:
