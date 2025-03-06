@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00ff99;
+}
+
+/* Home Page */
+.hero {
+    padding: 50px;
+}
+
+.hero img {
+    width: 70%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #00ff99;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background: #00cc77;
+}
+
+/* Mods */
+.mods {
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.mods img {
+    width: 60%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background: #222;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #00ff99;
+}
+
+/* Downloads Page */
+.downloads {
+    padding: 50px;
+}
+
+.downloads h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.download-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.download-list .download-btn {
+    display: block;
+    width: 250px;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.download-list .download-btn:hover {
+    background: #0056b3;
+}
+
+/* Requirements Page */
+.requirements {
+    padding: 50px;
+}
+
+.requirements h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.specs {
+    margin-top: 24px;
+    text-align: left;
+    display: inline-block;
+}
+
+.specs h2 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+    color: #00ff99;
+}
+
+.specs ul {
+    list-style: none;
+}
+
+.specs ul li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
